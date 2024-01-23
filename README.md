@@ -8,6 +8,7 @@ Database Setup:
 3.	Right click on the “Databases” folder in the Local Server and click “Import Data-tier Application…”
 4.	Click “Import Setting” on the Left Pane
 5.	In the import from local disk, open “ABC_Database.sql” in the “SQL Files” in the zip
+
 Project Setup:
 1.	Extract the project.zip file
 2.	Open “ABCBankingApplication.sln” file with Microsoft Visual Studio application
