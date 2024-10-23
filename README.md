@@ -19,7 +19,7 @@ Project Setup:
 
 
 
-##Screenshots:
+## Screenshots:
 
 Landing Page:
 ![image](https://github.com/user-attachments/assets/9f8bb85e-e33d-4da6-9247-41983c05db62)
