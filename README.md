@@ -27,6 +27,9 @@ Landing Page:
 Customer Login Page:
 ![image](https://github.com/user-attachments/assets/4042dfc1-3ed4-4693-a6f5-bd580e8744f7)
 
+Customer Login Page Failed:
+![image](https://github.com/user-attachments/assets/10318bd7-0335-4094-b1e6-cdce3fc42171)
+
 Customer Register Page:
 ![image](https://github.com/user-attachments/assets/c786ac48-3b37-4861-9f89-9c3edef5a2d1)
 
@@ -86,23 +89,42 @@ Employee Account - Update New Account Page:
 Employee Account - Download Your Statement Page:
 ![image](https://github.com/user-attachments/assets/7fc97f1a-2613-46fc-8900-3933f592cfe8)
 
-Employee Customer - :
-Employee Customer - :
-Employee Customer - :
+Employee Customer - Add Customer:
+![image](https://github.com/user-attachments/assets/60284760-7710-4863-9142-3eb0b185fede)
 
-Employee Fund Transfer - :
-Employee Fund Transfer - :
-Employee Fund Transfer - :
+Employee Customer - Update Customer:
+![image](https://github.com/user-attachments/assets/883029d7-2210-4ceb-89c9-bfce301fe28d)
+
+Employee Customer - Remove Customer:
+![image](https://github.com/user-attachments/assets/3ac489c4-80a1-4512-8ab4-bc5bf3cf64eb)
+
+Employee Fund Transfer - Deposit Money:
+![image](https://github.com/user-attachments/assets/607988a9-8ac1-4217-a1b0-f8f6dabc1142)
+
+Employee Fund Transfer - Withdraw Money:
+![image](https://github.com/user-attachments/assets/df3cce04-6a05-4ee0-94f1-50101def3c84)
+
+Employee Fund Transfer - Send Money:
+![image](https://github.com/user-attachments/assets/291c8f8d-232f-4851-a085-165b28cb4771)
 
 Employee Pending Approvals - Account Create Request Page:
+![image](https://github.com/user-attachments/assets/54c650a4-396a-45db-a16c-18072e4a7ac5)
 
 Employee Fund Transfer - Loan Request Page:
+![image](https://github.com/user-attachments/assets/65423049-282d-45f7-8cae-27df11114286)
 
 Employee Customer Details:
+![image](https://github.com/user-attachments/assets/1f031bc8-ed7f-49d9-b54a-ade140cce40d)
 
-Employee Manage Profile - Page:
-Employee Manage Profile - Page:
-Employee Manage Profile - Page:
+Employee Manage Profile - Update Contact Details Page:
+![image](https://github.com/user-attachments/assets/ac377201-2c55-488d-9339-1efddada7ec8)
+
+Employee Manage Profile - Update Personal Details Page:
+![image](https://github.com/user-attachments/assets/5d4a29fa-a4b4-478d-9578-dc93ae1144a2)
+
+Employee Manage Profile - Change Password Page:
+![image](https://github.com/user-attachments/assets/a5c5ed57-a9ef-4c87-8e36-f4d44b4518e1)
+
 
 
 
