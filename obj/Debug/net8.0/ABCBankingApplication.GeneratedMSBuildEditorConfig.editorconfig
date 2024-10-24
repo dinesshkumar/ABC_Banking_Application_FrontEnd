@@ -1,0 +1,251 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ABCBankingApplication
+build_property.RootNamespace = ABCBankingApplication
+build_property.ProjectDir = C:\Users\dines\source\repos\htmlDataTest\htmlDataTest\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dines\source\repos\htmlDataTest\htmlDataTest
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/Accounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXEFjY291bnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/AccountsSubPage/RecentTransactionsForm_Current.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXEFjY291bnRzU3ViUGFnZVxSZWNlbnRUcmFuc2FjdGlvbnNGb3JtX0N1cnJlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/AccountsSubPage/RecentTransactionsForm_Loan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXEFjY291bnRzU3ViUGFnZVxSZWNlbnRUcmFuc2FjdGlvbnNGb3JtX0xvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/AccountsSubPage/RecentTransactionsForm_Savings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXEFjY291bnRzU3ViUGFnZVxSZWNlbnRUcmFuc2FjdGlvbnNGb3JtX1NhdmluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/AccountsSubPage/StatementPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXEFjY291bnRzU3ViUGFnZVxTdGF0ZW1lbnRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/DownloadStatement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXERvd25sb2FkU3RhdGVtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/LoanHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXExvYW5IaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/LoanRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXExvYW5SZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/RequestNewAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXFJlcXVlc3ROZXdBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/AccountsPage/RequestRemoveAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNQYWdlXFJlcXVlc3RSZW1vdmVBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Account/CustomerAccountAccountsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDdXN0b21lckFjY291bnRBY2NvdW50c1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Account/CustomerAccountFundTransferPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDdXN0b21lckFjY291bnRGdW5kVHJhbnNmZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Account/CustomerAccountHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDdXN0b21lckFjY291bnRIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Account/CustomerAccountManageProfilePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDdXN0b21lckFjY291bnRNYW5hZ2VQcm9maWxlUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Account/CustomerAccountRecentTransactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDdXN0b21lckFjY291bnRSZWNlbnRUcmFuc2FjdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/Account/CreateNewAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWNjb3VudFxDcmVhdGVOZXdBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/Account/DeleteAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWNjb3VudFxEZWxldGVBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/Account/DownloadStatement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWNjb3VudFxEb3dubG9hZFN0YXRlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/Account/UpdateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWNjb3VudFxVcGRhdGVBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/BankEmployerAccountHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQmFua0VtcGxveWVyQWNjb3VudEhvbWVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/BankEmployerAccountPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQmFua0VtcGxveWVyQWNjb3VudFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/BankEmployerCustomerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQmFua0VtcGxveWVyQ3VzdG9tZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/BankEmployerCustomerPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQmFua0VtcGxveWVyQ3VzdG9tZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/BankEmployerFundTransferPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQmFua0VtcGxveWVyRnVuZFRyYW5zZmVyUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/BankEmployerLoanRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQmFua0VtcGxveWVyTG9hblJlcXVlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/BankEmployerManageProfilePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQmFua0VtcGxveWVyTWFuYWdlUHJvZmlsZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/BankEmployerPendingApprovalsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQmFua0VtcGxveWVyUGVuZGluZ0FwcHJvdmFsc1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/Customer/AddCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3VzdG9tZXJcQWRkQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/Customer/BlockCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3VzdG9tZXJcQmxvY2tDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/Customer/RemoveCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3VzdG9tZXJcUmVtb3ZlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/Customer/UpdateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3VzdG9tZXJcVXBkYXRlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/FundTransfer/DepositMoney.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRnVuZFRyYW5zZmVyXERlcG9zaXRNb25leS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/FundTransfer/SendMoney.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRnVuZFRyYW5zZmVyXFNlbmRNb25leS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/FundTransfer/WithdrawMoney.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRnVuZFRyYW5zZmVyXFdpdGhkcmF3TW9uZXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/PendingApprovals/AccountNewRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGVuZGluZ0FwcHJvdmFsc1xBY2NvdW50TmV3UmVxdWVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/PendingApprovals/AccountRemoveRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGVuZGluZ0FwcHJvdmFsc1xBY2NvdW50UmVtb3ZlUmVxdWVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Employee/PendingApprovals/LoanRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUGVuZGluZ0FwcHJvdmFsc1xMb2FuUmVxdWVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/FundTransferPage/AddBeneficiary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuZFRyYW5zZmVyUGFnZVxBZGRCZW5lZmljaWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/FundTransferPage/RemoveBeneficiary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuZFRyYW5zZmVyUGFnZVxSZW1vdmVCZW5lZmljaWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/FundTransferPage/SendMoney.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuZFRyYW5zZmVyUGFnZVxTZW5kTW9uZXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Home/Results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Login/BankEmployerLoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQmFua0VtcGxveWVyTG9naW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Login/CustomerLoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ3VzdG9tZXJMb2dpblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Login/CustomerLoginPageFailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ3VzdG9tZXJMb2dpblBhZ2VGYWlsZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Login/CustomerRegisterPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ3VzdG9tZXJSZWdpc3RlclBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/ManageProfilePage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvZmlsZVBhZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/ManageProfilePage/UpdateContactDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvZmlsZVBhZ2VcVXBkYXRlQ29udGFjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/ManageProfilePage/UpdatePersonalDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlUHJvZmlsZVBhZ2VcVXBkYXRlUGVyc29uYWxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Template/RecentTransactionsForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVcUmVjZW50VHJhbnNhY3Rpb25zRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Template/RegistrationForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVcUmVnaXN0cmF0aW9uRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Transaction/GetTransaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25cR2V0VHJhbnNhY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dines/source/repos/htmlDataTest/htmlDataTest/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tkhiu7ysw9
