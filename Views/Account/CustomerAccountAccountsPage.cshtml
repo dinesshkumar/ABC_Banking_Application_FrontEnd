@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "Accounts";
+}
+@model htmlDataTest.Models.CustomerModel
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+        <a class="navbar-brand">Customer ID : @ViewBag.Customer_id </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header bg-dark text-white">
+                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/HomePage">Home</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link active" aria-current="page" href="~/Account/AccountsPage" >Accounts</a>
+                       
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/RecentTransactions">Recent Transaction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/FundTransferPage">Fund Transfer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/ManageProfilePage">Manage Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @ViewBag.userName
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item  text-white" href="~/Account/LogOff">Log Off</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="d-flex align-items-start ">
+    <div class="nav flex-column nav-pills me-3 col-3 flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <span class="fs-5 d-none d-sm-inline">@ViewBag.Title</span>
+        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-Accounts" aria-selected="true">Accounts</button>
+        <button class="nav-link" id="v-pills-RequestNewAccount-tab" data-bs-toggle="pill" data-bs-target="#v-pills-RequestNewAccount" type="button" role="tab" aria-controls="v-pills-RequestNewAccount" aria-selected="false">Request New Account</button>
+        <button class="nav-link" id="v-pills-RequestRemoveAccount-tab" data-bs-toggle="pill" data-bs-target="#v-pills-RequestRemoveAccount" type="button" role="tab" aria-controls="v-pills-RequestRemoveAccount" aria-selected="false">Request Remove Account</button>
+        <button class="nav-link" id="v-pills-LoanRequest-tab" data-bs-toggle="pill" data-bs-target="#v-pills-LoanRequest" type="button" role="tab" aria-controls="v-pills-LoanRequest" aria-selected="false">Loan Request</button>
+        <button class="nav-link" id="v-pills-LoanHistory-tab" data-bs-toggle="pill" data-bs-target="#v-pills-LoanHistory" type="button" role="tab" aria-controls="v-pills-LoanHistory" aria-selected="false">Loan History</button>
+        <button class="nav-link" id="v-pills-DownloadStatement-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DownloadStatement" type="button" role="tab" aria-controls="v-pills-DownloadStatement" aria-selected="false">Download Statement</button>
+
+
+    </div>
+    <div class="tab-content col-9" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-Accounts-tab" tabindex="0">
+           <partial name="~/Views/AccountsPage/Accounts.cshtml" />
+
+        </div>
+        <div class="tab-pane fade" id="v-pills-RequestNewAccount" role="tabpanel" aria-labelledby="v-pills-RequestNewAccount-tab" tabindex="0">
+            <partial name="~/Views/AccountsPage/RequestNewAccount.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-RequestRemoveAccount" role="tabpanel" aria-labelledby="v-pills-RequestRemoveAccount-tab" tabindex="0">
+            <partial name="~/Views/AccountsPage/RequestRemoveAccount.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-LoanRequest" role="tabpanel" aria-labelledby="v-pills-LoanRequest-tab" tabindex="0">
+            <partial name="~/Views/AccountsPage/LoanRequest.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-LoanHistory" role="tabpanel" aria-labelledby="v-pills-LoanHistory-tab" tabindex="0">
+            <partial name="~/Views/AccountsPage/LoanHistory.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-DownloadStatement" role="tabpanel" aria-labelledby="v-pills-DownloadStatement-tab" tabindex="0">
+            <partial name="~/Views/AccountsPage/DownloadStatement.cshtml" />
+        </div>
+    </div>
+</div>
+@*<p>@ViewBag.Title, it Successfully logged in </p>*@
+

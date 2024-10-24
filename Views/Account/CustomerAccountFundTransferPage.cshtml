@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Fund Transfer";
+}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+        <a class="navbar-brand">Customer ID : @ViewBag.Customer_id </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header bg-dark text-white">
+                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/HomePage">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/AccountsPage">Accounts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/RecentTransactions">Recent Transaction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="~/Account/FundTransferPage">Fund Transfer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/ManageProfilePage">Manage Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @ViewBag.userName
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item  text-white" href="~/Account/LogOff">Log Off</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="d-flex align-items-start ">
+<div class="nav flex-column nav-pills me-3 col-3 flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <span class="fs-5 d-none d-sm-inline">@ViewBag.Title</span>
+    <button class="nav-link active" id="v-pills-SendMoney-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SendMoney" type="button" role="tab" aria-controls="v-pills-SendMoney" aria-selected="true">Send Money</button>
+    <button class="nav-link" id="v-pills-AddBeneficiary-tab" data-bs-toggle="pill" data-bs-target="#v-pills-AddBeneficiary" type="button" role="tab" aria-controls="v-pills-AddBeneficiary" aria-selected="false">Add Beneficiary</button>
+    <button class="nav-link" id="v-pills-RemoveBeneficiary-tab" data-bs-toggle="pill" data-bs-target="#v-pills-RemoveBeneficiary" type="button" role="tab" aria-controls="v-pills-RemoveBeneficiary" aria-selected="false">Remove Beneficiary</button>
+</div>
+<div class="tab-content col-9" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-SendMoney" role="tabpanel" aria-labelledby="v-pills-SendMoney-tab" tabindex="0">
+            <partial name="~/Views/FundTransferPage/SendMoney.cshtml" />
+    </div>
+    <div class="tab-pane fade" id="v-pills-AddBeneficiary" role="tabpanel" aria-labelledby="v-pills-AddBeneficiary-tab" tabindex="0">
+            <partial name="~/Views/FundTransferPage/AddBeneficiary.cshtml" />
+    </div>
+    <div class="tab-pane fade" id="v-pills-RemoveBeneficiary" role="tabpanel" aria-labelledby="v-pills-RemoveBeneficiary-tab" tabindex="0">
+            <partial name="~/Views/FundTransferPage/RemoveBeneficiary.cshtml" />
+    </div>
+
+</div>
+</div>
+

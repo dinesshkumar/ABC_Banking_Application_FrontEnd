@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+        <a class="navbar-brand">Customer ID : @ViewBag.Customer_id </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header bg-dark text-white">
+                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="~/Account/HomePage">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/AccountsPage">Accounts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/RecentTransactions">Recent Transaction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/FundTransferPage">Fund Transfer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/ManageProfilePage">Manage Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @ViewBag.userName
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item  text-white" href="~/Account/LogOff">Log Off</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+@*
+<div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3 col-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-Accounts" aria-selected="true">Accounts</button>
+        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-AddAccount" aria-selected="false">Request New Account</button>
+        <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" disabled>Remove Account</button>
+        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Loan Request</button>
+        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Remove Account</button>
+    </div>
+    <div class="tab-content col-9" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-Accounts-tab" tabindex="0">
+            HomePlace
+            <partial name="~/Views/Home/Privacy.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-AddAccount-tab" tabindex="0">ProfilePlace</div>
+        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">.Place.</div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+    </div>
+</div>
+*@
+<div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Hello @ViewBag.userName @ViewBag.lastName,</h1>
+    <p class="col-md-8 fs-4">Hope you are enjoying Banking with us.</p>
+
+    @*<button class="btn btn-primary btn-lg" type="button">Example button</button>*@
+</div>
+
+

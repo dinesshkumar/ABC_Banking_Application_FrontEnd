@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = "Recent Transactions";
+}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+        <a class="navbar-brand">Customer ID : @ViewBag.Customer_id </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <div class="offcanvas-header bg-dark text-white">
+                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="~/Account/HomePage">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/AccountsPage">Accounts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="~/Account/RecentTransactions">Recent Transaction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/FundTransferPage">Fund Transfer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/ManageProfilePage">Manage Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @ViewBag.userName
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item  text-white" href="~/Account/LogOff">Log Off</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="d-flex align-items-start ">
+    <div class="nav flex-column nav-pills me-3 col-3 flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <span class="fs-5 d-none d-sm-inline">@ViewBag.Title</span>
+        <button class="nav-link active" id="v-pills-LoanRequest-tab" data-bs-toggle="pill" data-bs-target="#v-pills-LoanRequest" type="button" role="tab" aria-controls="v-pills-LoanRequest" aria-selected="false">Recent Transactions</button>
+    </div>
+    <div class="tab-content col-9" id="v-pills-tabContent">
+
+        <div class="tab-pane fade show active" id="v-pills-LoanRequest" role="tabpanel" aria-labelledby="v-pills-LoanRequest-tab" tabindex="0">
+            <h2>Recent Transactions</h2>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                    <tr>
+                        <th>Transaction Date</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Balance</th>
+                        <th>Account Type</th>
+
+                    </tr>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var transaction in @ViewBag.transactionDetails)
+                    {
+                        <tr>
+                            <td>@transaction.Transaction_date</td>
+                            <td>@transaction.Description</td>
+                            <td>£@transaction.Amount</td>
+                            <td>£@transaction.Balance</td>
+                            <td>Savings</td>
+                            @*<td>£@transaction.Account_Type</td>*@
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="calendar calendar-first" id="calendar_first">
+            <div class="calendar_header">
+                <button class="switch-month switch-left"> <i class="fa fa-chevron-left"></i></button>
+                <h2>January 2024</h2>
+                <button class="switch-month switch-right"> <i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="calendar_weekdays"><div style="color: rgb(68, 68, 68);">Sun</div><div style="color: rgb(68, 68, 68);">Mon</div><div style="color: rgb(68, 68, 68);">Tue</div><div style="color: rgb(68, 68, 68);">Wed</div><div style="color: rgb(68, 68, 68);">Thu</div><div style="color: rgb(68, 68, 68);">Fri</div><div style="color: rgb(68, 68, 68);">Sat</div></div>
+            <div class="calendar_content"><div class="blank"></div><div class="past-date">1</div><div class="past-date">2</div><div class="past-date">3</div><div class="past-date">4</div><div class="past-date">5</div><div class="past-date">6</div><div class="past-date">7</div><div class="past-date">8</div><div class="past-date">9</div><div class="past-date">10</div><div class="past-date">11</div><div class="past-date">12</div><div class="past-date">13</div><div class="past-date">14</div><div class="past-date">15</div><div class="past-date">16</div><div class="past-date">17</div><div class="past-date">18</div><div class="past-date">19</div><div class="past-date">20</div><div class="past-date">21</div><div class="today" style="color: rgb(0, 189, 170);">22</div><div>23</div><div>24</div><div>25</div><div>26</div><div>27</div><div>28</div><div>29</div><div>30</div><div>31</div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div></div>
+        </div>
+    </div>
+</div>

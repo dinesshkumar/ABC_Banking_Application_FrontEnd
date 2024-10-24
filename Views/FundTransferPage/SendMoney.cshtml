@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    /* Optional: Some basic styling */
+    .hidden {
+        display: none;
+    }
+</style>
+<h1>Send Money</h1>
+<form action="/FundTransfer/SendMoney">
+    <div class="form-group">
+        <label>Transfer Type</label>
+        <select id="transferTypeSelect" class="form-control">
+            <option selected value="internal">Internal</option>
+            <option value="External">External</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>From</label>
+        <select id="transferFrom" class="form-control">
+            <option selected value="internal">Internal</option>
+            <option value="bank">ternal</option>
+        </select>
+    </div>
+    <div class="form-group hidden" id="BankNameDiv">
+        <label>Bank Name</label>
+        <input type="text" id="bankName" class="form-control" placeholder="Enter Bank Name">
+    </div>
+    <div class="form-group">
+        <label>Account Number</label>
+        <input type="text" id="AccountNumber" class="form-control" placeholder="Enter Account Number">
+    </div>
+    <div class="form-group">
+        <label>Amount</label>
+        <input type="text" id="EnterAmount" class="form-control" placeholder="Enter Amount">
+    </div>
+
+
+    <p></p>
+    <button type="submit" class="btn btn-primary" >Send Money</button>
+</form>
+
+
+<script>
+
+$(document).ready(function () {
+    $('#transferTypeSelect').on('change', function () {
+        if (this.value == 'External')
+        //.....................^.......
+        {
+            $("#BankNameDiv").show();
+        }
+        else {
+            $("#BankNameDiv").hide();
+        }
+    });
+});
+    
+ </script>

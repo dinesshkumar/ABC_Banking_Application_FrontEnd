@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Accounts</h1>
+
+
+
+    <div class="container mt-5">
+
+        <div id="accordion">
+            <!-- Section 1 -->
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Savings Accounts
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                    <partial name="~/Views/AccountsPage/AccountsSubPage/RecentTransactionsForm_Savings.cshtml" />
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Current Accounts
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                    <partial name="~/Views/AccountsPage/AccountsSubPage/RecentTransactionsForm_Current.cshtml" />
+                </div>
+                </div>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Loan Accounts
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                    <partial name="~/Views/AccountsPage/AccountsSubPage/RecentTransactionsForm_Loan.cshtml" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+

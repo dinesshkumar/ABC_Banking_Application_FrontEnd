@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Transactions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Additional styles if needed */
+        body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Transaction History</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Transaction Date</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-01-18 19:25:45.360</td>
+                <td>Cash</td>
+                <td>£40</td>
+                <td>£119.33</td>
+            </tr>
+            <tr>
+                <td>2024-01-18 19:25:31.950</td>
+                <td>Cheque</td>
+                <td>£-20.67</td>
+                <td>£79.33</td>
+            </tr>
+            <tr>
+                <td>2024-01-18 19:25:19.520</td>
+                <td>Cash</td>
+                <td>£100</td>
+                <td>£100</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+@*<partial name="~/Views/Transaction/GetTransacti
+
+
+on.cshtml" />*@
+
+
+<div class="col-md-12">
+    <div class="calendar calendar-first" id="calendar_first">
+        <div class="calendar_header">
+            <button class="switch-month switch-left"> <i class="fa fa-chevron-left"></i></button>
+            <h2>January 2024</h2>
+            <button class="switch-month switch-right"> <i class="fa fa-chevron-right"></i></button>
+        </div>
+        <div class="calendar_weekdays"><div style="color: rgb(68, 68, 68);">Sun</div><div style="color: rgb(68, 68, 68);">Mon</div><div style="color: rgb(68, 68, 68);">Tue</div><div style="color: rgb(68, 68, 68);">Wed</div><div style="color: rgb(68, 68, 68);">Thu</div><div style="color: rgb(68, 68, 68);">Fri</div><div style="color: rgb(68, 68, 68);">Sat</div></div>
+        <div class="calendar_content"><div class="blank"></div><div class="past-date">1</div><div class="past-date">2</div><div class="past-date">3</div><div class="past-date">4</div><div class="past-date">5</div><div class="past-date">6</div><div class="past-date">7</div><div class="past-date">8</div><div class="past-date">9</div><div class="past-date">10</div><div class="past-date">11</div><div class="past-date">12</div><div class="past-date">13</div><div class="past-date">14</div><div class="past-date">15</div><div class="past-date">16</div><div class="past-date">17</div><div class="past-date">18</div><div class="past-date">19</div><div class="past-date">20</div><div class="past-date">21</div><div class="today" style="color: rgb(0, 189, 170);">22</div><div>23</div><div>24</div><div>25</div><div>26</div><div>27</div><div>28</div><div>29</div><div>30</div><div>31</div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div><div class="blank"></div></div>
+    </div>
+</div>
+
+</body>
+</html>

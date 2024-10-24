@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Failed Login";
+}
+<div class="position-relative p-5 text-center  border-dashed rounded-5">
+    <h1 class="text-body-emphasis mb-4">Login Failed</h1>
+
+    <p class ="col-lg-6 mx-auto mb-4" >Username or password is wrong.</p>
+    <p class="col-lg-6 mx-auto mb-4">Please Try Again.</p>
+
+
+<form action="/Account/FailedLogIn" method="post">
+        <button class="btn btn-primary px-5 mb-5" type="submit">Go Back to Login Page</button>
+
+</form>
+</div>

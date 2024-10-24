@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<body>
+
+    <h2>Download Your Statement</h2>
+
+    <p>Select the format you want to download:</p>
+
+    <form id="downloadForm">
+        <div class="form-group">
+            <label for="format">Select Format:</label>
+            <select class="form-control" id="format" name="format">
+                <option value="pdf">PDF</option>
+                <option value="csv">CSV</option>
+                <option value="excel">Excel</option>
+            </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="downloadStatement()">Download</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function downloadStatement() {
+            var format = document.getElementById('format').value;
+
+            // Assuming you have a server-side endpoint to handle the download
+            var downloadUrl = '/api/download-statement?format=' + format;
+
+            // You can use JavaScript to initiate the download or redirect to the download URL
+            window.location.href = downloadUrl;
+        }
+    </script>
+
+</body>
+

@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Update New Account</h1>
+<form action="/Account/NewAccountRequest">
+             <div class="form-group">
+            <label>Customer ID</label>
+            <input type="text" id="reason" class="form-control" placeholder="Enter Customer ID">
+        </div>
+                <div class="form-group">
+            <label>Account Number</label>
+            <input type="text" id="reason" class="form-control" placeholder="Enter Account Number">
+        </div>
+
+
+    <div class="form-group">
+        <label>Change Account Type To</label>
+        <select id="select" class="form-control">
+            <option selected value="Savings">Savings</option>
+            <option value="Current">Current</option>
+        </select>
+    </div>
+                    <div class="form-group">
+            <label>Change Account Number To</label>
+            <input type="text" id="reason" class="form-control" placeholder="Enter New Account Number">
+        </div>
+    
+
+        <p></p>
+    <button type="submit" class="btn btn-primary">Update Account</button>
+</form>

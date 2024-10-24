@@ -1,0 +1,24 @@
+﻿<h1>Deposit Money</h1>
+<form action="/FundTransfer/SendMoney">
+    <div class="form-group">
+        <label>Deposit Type</label>
+        <select id="depositType" class="form-control">
+            <option selected value="cash">Cash</option>
+            <option value="cheque">Cheque</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Account Number</label>
+        <input type="text" id="AccountNumber" class="form-control" placeholder="Enter Account Number">
+    </div>
+    <div class="form-group">
+        <label>Amount</label>
+        <input type="text" id="EnterAmount" class="form-control" placeholder="Enter Amount">
+    </div>
+
+
+    <p></p>
+    <button type="submit" class="btn btn-primary">Deposit</button>
+</form>
+
+

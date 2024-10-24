@@ -1,0 +1,93 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    /* Optional: Some basic styling */
+    .hidden {
+      display: none;
+    }
+  </style>
+<h1>Loan Request Form</h1>
+<form action="/Account/LoanRequest" method="post">
+    <div class="form-group">
+        <label>Loan Type</label>
+        <select id="LoanType" class="form-control" name="loanType">
+            <option selected value="Personal Loan">Personal Loan</option>
+            <option value="Business Loan">Business Loan</option>
+            <option value="Vehicle Loan">Vehicle Loan</option>
+            <option value="Equipment Loan">Equipment Loan</option>
+
+
+        </select>
+    </div>
+        <div class="form-group">
+        <label >Repayment Duration</label>
+        <select id="durationSelect" class="form-control" name="durationSelect">
+            <option selected value="3 Months">3 Months</option>
+            <option value="6 Months">6 Months</option>
+            <option value="9 Months">9 Months</option>
+            <option value="1 Year">1 Year</option>
+            <option value="other">Other Duration</option>
+
+
+        </select>
+    </div>
+    
+        <div class="form-group hidden" id="Other" >
+            <label>Other Durations</label>
+        <input type="text" id="OtherDurations" name="otherDurations" class="form-control" placeholder="Enter Other Durations">
+        </div>
+
+        <div class="form-group" id="amount" >
+            <label>Loan Amount</label>
+        <input type="text" id="LoanAmount" name="loanAmount" class="form-control" placeholder="Enter Loan Amount in £..">
+        </div>
+                <div class="form-group" >
+            <label>Comments</label>
+        <input type="text" id="Comments" name="comments"class="form-control" placeholder="Anything you want to let us know....">
+        </div>
+
+        <p></p>
+    <button type="submit" class="btn btn-primary" onclick="loanRequest()">Request Loan</button>
+</form>
+
+​<div id="submitstatus" style="visibility: hidden">
+    <h2 style="color:red">New Account Requested Successfully.</h2>
+
+</div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+<script>
+
+$(document).ready(function(){
+    $('#durationSelect').on('change', function() {
+      if ( this.value == 'other')
+      //.....................^.......
+      {
+        $("#Other").show();
+      }
+      else
+      {
+        $("#Other").hide();
+      }
+    });
+});
+
+function myFunction() {
+    document.getElementById("submitstatus").style.visibility='visible';
+    document.getElementById("submitstatus").style.visibility='hidden';
+
+
+}
+   </script>
+
+
+            <script>
+        function loanRequest() {
+            // Handle approval logic here
+            //if (document.getElementById("OtherDurations").value)
+              //  document.getElementById("durationSelect").value = "";
+
+            alert(document.getElementById("OtherDurations").value+" c "+document.getElementById("LoanType").value+" of £"+ document.getElementById("LoanAmount").value+" with "+document.getElementById("OtherDurations").value+document.getElementById("durationSelect").value+ " repayment duration is requested successfully.\nBank Coordinator will contact you shortly.\nThanks.");
+        }
+    </script>

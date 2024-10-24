@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Account";
+}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+        @*<a class="navbar-brand">Employee ID </a>*@
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+            <            <div class="offcanvas-header bg-dark text-white">
+                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/BankEmployee/BankEmployerAccountHomePage">Home</a>
+                    </li>
+                    <li class="nav-item active" aria-current="page">
+                        <a class="nav-link active" aria-current="page" href="~/BankEmployee/BankEmployerAccountPage">Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/BankEmployee/BankEmployerCustomerPage">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/BankEmployee/BankEmployerFundTransferPage">Fund Transfer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/BankEmployee/BankEmployerPendingApprovalsPage">Pending Approvals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="FundTransfer" asp-action="LoanDetails">Loan Approvals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="FundTransfer" asp-action="CustomerDetails">Customer Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/BankEmployee/BankEmployerManageProfilePage">Manage Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @ViewBag.userName
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item  text-white" href="~/Account/LogOff">Log Off</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="d-flex align-items-start ">
+    <div class="nav flex-column nav-pills me-3 col-3 flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <span class="fs-5 d-none d-sm-inline">@ViewBag.Title</span>
+        <button class="nav-link active" id="v-pills-CreateNewAccount-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CreateNewAccount" type="button" role="tab" aria-controls="v-pills-CreateNewAccount" aria-selected="true">Create New Account</button>
+        <button class="nav-link" id="v-pills-DeleteAccount-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DeleteAccount" type="button" role="tab" aria-controls="v-pills-DeleteAccount" aria-selected="false">Delete Account</button>
+        <button class="nav-link" id="v-pills-UpdateAccount-tab" data-bs-toggle="pill" data-bs-target="#v-pills-UpdateAccount" type="button" role="tab" aria-controls="v-pills-UpdateAccount" aria-selected="false">Update Account</button>
+        <button class="nav-link" id="v-pills-DownloadStatement-tab" data-bs-toggle="pill" data-bs-target="#v-pills-DownloadStatement" type="button" role="tab" aria-controls="v-pills-DownloadStatement" aria-selected="false">Download Statement</button>
+
+    </div>
+    <div class="tab-content col-9" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-CreateNewAccount" role="tabpanel" aria-labelledby="v-pills-CreateNewAccount-tab" tabindex="0">
+            <partial name="~/Views/Employee/Account/CreateNewAccount.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-DeleteAccount" role="tabpanel" aria-labelledby="v-pills-DeleteAccount-tab" tabindex="0">
+            <partial name="~/Views/Employee/Account/DeleteAccount.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-UpdateAccount" role="tabpanel" aria-labelledby="v-pills-UpdateAccount-tab" tabindex="0">
+            <partial name="~/Views/Employee/Account/UpdateAccount.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-DownloadStatement" role="tabpanel" aria-labelledby="v-pills-DownloadStatement-tab" tabindex="0">
+            <partial name="~/Views/Employee/Account/DownloadStatement.cshtml" />
+        </div>
+    </div>
+</div>

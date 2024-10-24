@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="px-4 py-5 my-5 text-center">
+    
+    <h1 class="display-5 fw-bold text-body-emphasis">ABC Banking Group</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Online Banking Application</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <form action="/Home/CustomerLogin" method="post">
+            <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Customer Login</button>
+            </form>
+            <form action="/Home/EmployeeLogin" method="post">
+            <button type="submit" class="btn btn-outline-secondary btn-lg px-4">Employee Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+@*{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    
+
+</div>
+<div class="login-container">
+    <h2>Login</h2>
+    <form action="/Account/Submit" method="post">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="userEmail" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="userPassword" required>
+
+        <input type="submit" value="Login">
+    </form>
+</div>*@

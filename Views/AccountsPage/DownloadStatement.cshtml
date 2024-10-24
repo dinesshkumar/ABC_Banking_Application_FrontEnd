@@ -1,0 +1,51 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Download Statement</h1>
+
+<body>
+
+    <form id="downloadForm">
+
+        <div class="form-group">
+            <label for="account">Select Account Type</label>
+            <select class="form-control" id="selectAccount" name="format">
+                <option value="Savings Account">Saving</option>
+                <option value="Current Account">Current</option>
+                <option value="Loan Account">Loan</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Account Number</label>
+            <input type="text" id="AccountNumber" name="accountNumber" class="form-control" placeholder="Enter Account Number">
+        </div>
+
+
+        <div class="form-group">
+            <label for="format">Select Format:</label>
+            <select class="form-control" id="SelectFormat" name="SelectFormat">
+                <option value="pdf">PDF</option>
+                <option value="csv">CSV</option>
+                <option value="xlsx">Excel</option>
+            </select>
+        </div>
+        <p></p>
+        <button type="button" class="btn btn-primary" onclick="downloadStatement()">Download Statement</button>
+        <button type="button" class="btn btn-primary" onclick="sendEmail()">Send Email</button>
+
+    </form>
+
+</body>
+
+
+<script>
+    function sendEmail() {
+        // Handle approval logic here
+
+        alert("The Bank Statement of " + document.getElementById("selectAccount").value + " in ." + document.getElementById("SelectFormat").value + " Format is sent to your Email ID.\nPlease check.\nThanks.");
+    }
+</script>

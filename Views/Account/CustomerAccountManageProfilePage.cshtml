@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Manage Profile";
+}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+        <a class="navbar-brand">Customer ID : @ViewBag.Customer_id </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+           <div class="offcanvas-header bg-dark text-white">
+                <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/HomePage">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/AccountsPage">Accounts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/RecentTransactions">Recent Transaction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Account/FundTransferPage">Fund Transfer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="~/Account/ManageProfilePage">Manage Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @ViewBag.userName
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item  text-white" href="~/Account/LogOff">Log Off</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="d-flex align-items-start ">
+    <div class="nav flex-column nav-pills me-3 col-3 flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100 bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <span class="fs-5 d-none d-sm-inline">@ViewBag.Title</span>
+        <button class="nav-link active" id="v-pills-UpdateContactDetails-tab" data-bs-toggle="pill" data-bs-target="#v-pills-UpdateContactDetails" type="button" role="tab" aria-controls="v-pills-UpdateContactDetails" aria-selected="true">Update Contact Details</button>
+        <button class="nav-link" id="v-pills-UpdatePersonalDetails-tab" data-bs-toggle="pill" data-bs-target="#v-pills-UpdatePersonalDetails" type="button" role="tab" aria-controls="v-pills-UpdatePersonalDetails" aria-selected="false">Update Personal Details</button>
+        <button class="nav-link" id="v-pills-ChangePassword-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ChangePassword" type="button" role="tab" aria-controls="v-pills-ChangePassword" aria-selected="false">Change Password</button>
+    </div>
+    <div class="tab-content col-9" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-UpdateContactDetails" role="tabpanel" aria-labelledby="v-pills-UpdateContactDetails-tab" tabindex="0">
+            <partial name="~/Views/ManageProfilePage/UpdateContactDetails.cshtml" />
+        </div>
+        <div class="tab-pane fade" id="v-pills-UpdatePersonalDetails" role="tabpanel" aria-labelledby="v-pills-UpdatePersonalDetails-tab" tabindex="0">
+            <partial name="~/Views/ManageProfilePage/UpdatePersonalDetails.cshtml" />
+            </div>
+        <div class="tab-pane fade" id="v-pills-ChangePassword" role="tabpanel" aria-labelledby="v-pills-ChangePassword-tab" tabindex="0">
+            <partial name="~/Views/ManageProfilePage/ChangePassword.cshtml" />
+        </div>
+
+    </div>
+</div>
+
